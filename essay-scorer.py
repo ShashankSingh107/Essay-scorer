@@ -51,7 +51,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #255363;
+        background-color: #dcdcdc;
     }
     </style>
     """,
