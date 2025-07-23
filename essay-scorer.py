@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 import numpy as np
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 def preprocess_essay(essay):
