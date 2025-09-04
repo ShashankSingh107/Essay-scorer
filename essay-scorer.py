@@ -64,7 +64,8 @@ st.title("📝 Essay Scoring App")
 st.markdown("""
     <style>
     input, textarea {
-        background-color: #ebe7d5 !important;  
+        # background-color: #ebe7d5 !important;  
+        background-color:#2f3e46;
         color: #000000 !important;       
         caret-color: #000000 !important;
         border-radius: 10px;
@@ -106,5 +107,6 @@ if st.button("Analyze Essay"):
 
         with st.expander("📌 Shortest Sentence"):
             st.write(insights['shortest_sentence'])
+
 
 
